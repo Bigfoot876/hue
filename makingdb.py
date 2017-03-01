@@ -4,19 +4,53 @@ import sys
 con = lite.connect('test.db')
 
 L1ID = 1
-L1NAME = 'SkabTest'
+L1NAME = 'Name1'
 L1ON = 1
 L1BRI = 150
 L1HUE = 9000
 L1SAT = 225
 L1CT = 224
 
+
 L2ID = 2
-L2NAME =
+L2NAME = 'Name2'
+L2ON = 1
+L2BRI = 150
+L2HUE = 9000
+L2SAT = 225
+L2CT = 224
 
+L3ID = 3
+L3NAME = 'Name3'
+L3ON = 1
+L3BRI = 150
+L3HUE = 9000
+L3SAT = 225
+L3CT = 224
 
+L4ID = 4
+L4NAME = 'Name4'
+L4ON = 1
+L4BRI = 150
+L4HUE = 9000
+L4SAT = 225
+L4CT = 224
 
+L5ID = 5
+L5NAME = 'Name5'
+L5ON = 1
+L5BRI = 150
+L5HUE = 9000
+L5SAT = 225
+L5CT = 224
 
+L6ID = 6
+L6NAME = 'Name6'
+L6ON = 1
+L6BRI = 150
+L6HUE = 9000
+L6SAT = 225
+L6CT = 224
 
 
 
