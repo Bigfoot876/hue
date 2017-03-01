@@ -4,7 +4,7 @@ from time import sleep
 import sqlite3 as lite 
 import sys
 
-con = lite.connect('test.db')
+con = lite.connect('LightStateDB.db')
 
 while True:
 	
