@@ -100,7 +100,7 @@ def mainfunc():
 			while row is not None:
 				Lamp.append({'on': row[0], 'bri': row[1]})
 				row = cur.fetchone()
-"""
+
 		L1ID = 1
 		L1ON = Lamp[0]['on']
 		L1BRI = Lamp[0]['bri']
@@ -129,7 +129,7 @@ def mainfunc():
 		L6ID = 6
 		L6ON = Lamp[5]['on']
 		L6BRI = Lamp[5]['bri']
-		L6BRI = int(L6BRI) """
+		L6BRI = int(L6BRI)
 
 		def lightup( LID, LON, LBRI ):
 			L = "%s%s/state" %(url, LID)
